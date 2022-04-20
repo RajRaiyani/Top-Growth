@@ -1,0 +1,246 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,300;1,400&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik',sans-serif;
+}
+
+:root{
+    --green : #8bc53f;
+    --blue : #03487c;  
+}
+
+.blue{
+    color: var(--blue);
+}
+.green{
+    color: var(--green);
+}
+
+
+
+.navbar{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.7rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 7;
+    transition: 0.7s;
+}
+
+.navbar-scroll-active{
+    background-color: #f9fcff;
+    box-shadow: 1px 1px 10px rgb(182, 182, 182);
+}
+
+
+.home_btn{
+    align-items: center;
+    display:flex;
+    font-size: 1.5rem;
+    color: var(--green);
+    transition: 0.3s;
+
+}
+
+.home_btn:hover {
+    transform: scale(1.1);
+}
+
+.logo{
+    margin:-3rem 0;
+    height: 4.4rem;
+    width: 4.4rem;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--blue);
+    margin: 0 1rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    transition: 0.2s;
+}
+.link:hover{
+    color: var(--green);
+}
+
+
+
+/* banner */
+
+.banner{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+}
+
+.banner-text-box{
+    position: relative;
+    width: fit-content;
+    top: 35vh;
+    left: 5vw;
+}
+
+.banner-logo{
+    position: absolute;
+    top: 5.5rem;
+    right: 0;
+    padding: -2.7rem;
+    width: 47vw;
+    
+}
+
+.cote-text{
+    font-size: 3rem;
+    display:block;
+    width: fit-content;
+    font-weight: 600;
+    color: var(--blue);
+}
+
+.hint-text{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--green);
+    display: block;
+    width: fit-content;
+}
+
+.learn-more{
+    display: inline-block;
+    padding: 0.5rem;
+    color: var(--blue);
+    text-decoration: none;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    border: 2px solid var(--blue);
+}
+
+.arrow{
+    transition: 0.3s;
+}
+
+.learn-more:hover .arrow{
+    margin-left: 1rem;
+}
+
+
+/* second section */
+
+.title-11{
+    text-align: center;
+    font-size: 3rem;
+    margin: 7rem 0 3rem 0;
+}
+
+.flex-box-11{
+    display: flex;
+    width: 100vw;
+    height: fit-content;
+    padding: 0 2rem 4rem 2rem;
+    justify-content: space-around;
+}
+
+.s-box{
+    height: 100%;
+    width: 28%;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgb(219, 219, 219);
+    border-radius: 1rem;
+}
+
+.s-img{
+    width: 100%;
+}
+
+.s-text-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    display: block;  
+    margin-top: 1rem;
+}
+
+.s-text-info{
+    text-align: center;
+    padding: 2rem;
+    display: block;
+    color: var(--blue);
+    font-weight: 400;
+}
+
+
+
+
+/* contect us */
+
+
+.get-in-touch{
+    background-color: #f2ffe0;
+    padding: 3rem;
+    text-align: center;
+}
+
+.title-12{
+    font-size: 3rem;
+    margin: 1rem;
+}
+.text-11{
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 1rem;
+}
+
+.contect-us-btn{
+    text-decoration: none;
+    padding: 0.7rem;
+    background-color: var(--blue);
+    width: fit-content;
+    display: block;
+    margin-top: 3rem;
+    color: #f2ffe0;
+    font-size: 1.4rem;
+    border-radius: 0.4rem;
+    margin: 2rem auto 0 auto;
+    transition: 0.3s;
+}
+
+.contect-us-btn:hover{
+    transform: scale(1.1);
+}
+
+
+/* about section starts from here */
+
+.about{
+    width: 100vw;
+    height: 90vh;
+    background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+/* only for experiment */
+.exp{
+    height: 700px;
+}
