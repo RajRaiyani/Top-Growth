@@ -9,3 +9,12 @@ window.addEventListener("scroll",() => {
 
 });
 
+// home btn link
+
+// var home_btn = document.getElementsByClassName("about")[0];
+
+// home_btn.addEventListener("click", function(){
+//     document.location.href = "https://www.google.com/?client=safari";
+// });
+
+

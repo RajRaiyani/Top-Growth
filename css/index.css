@@ -3,6 +3,7 @@
 
 
 
+
 *{
     padding: 0;
     margin: 0;
@@ -21,6 +22,10 @@
 .green{
     color: var(--green);
 }
+
+
+/* commone section for basic css calles RP.css */
+
 
 
 
@@ -49,6 +54,7 @@
     font-size: 1.5rem;
     color: var(--green);
     transition: 0.3s;
+    text-decoration: none;
 
 }
 
@@ -194,17 +200,17 @@
 
 
 .get-in-touch{
-    background-color: #f2ffe0;
-    padding: 3rem;
+    background-color: #f3ffdf;
+    padding: 2rem 2rem 3.4rem 2rem;
     text-align: center;
 }
 
 .title-12{
-    font-size: 3rem;
+    font-size: 2.2rem;
     margin: 1rem;
 }
 .text-11{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 200;
     margin: 1rem;
 }
@@ -217,9 +223,9 @@
     display: block;
     margin-top: 3rem;
     color: #f2ffe0;
-    font-size: 1.4rem;
+    font-size: 1rem;
     border-radius: 0.4rem;
-    margin: 2rem auto 0 auto;
+    margin: 1.5rem auto 0 auto;
     transition: 0.3s;
 }
 
@@ -235,6 +241,55 @@
     height: 90vh;
     background-color: lightgray;
 }
+
+
+
+
+/* contect section  */
+
+
+.contect{
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    align-items: center;
+}
+.tg-ids-box-11{
+    margin-left:2.5rem;
+}
+.tg-ids-box-12{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    width: 55%;
+    margin: 1.3rem 0 0 1rem;
+}
+.tg-ids-icon{
+    opacity: 0.6;
+    color: var(--blue);
+    transition: 0.3s;
+}
+.tg-ids-icon:hover{
+    opacity: 1;
+}
+
+.p-email-box{
+    margin-right: 4rem;
+    text-align: right;
+}
+.email-link{
+    display: block;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    color: rgb(116, 116, 116);
+}
+.email-link:hover{
+    color: rgb(56, 56, 56);
+}
+.contect-t{
+    text-align: center;
+}
+
 
 
 
