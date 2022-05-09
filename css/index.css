@@ -308,6 +308,7 @@
     margin: 0 auto 0.7rem auto;
     border-radius: 0.5rem;
     text-decoration: none;
+    transition: 0.3s;
 }
 .visit-linkdin:hover{
     transform: scale(1.05);
