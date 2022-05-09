@@ -212,18 +212,11 @@
 /* about section starts from here */
 
 .about {
-    width: 100vw;
-
+    width: fit-content;
+    margin: 9rem auto;
 }
 
-.about-box-main {
-    width: 50vw;
-    margin: 6rem 0;
-    text-align: center;
-    padding: 1rem;
-    background-color: aliceblue;
-    border-radius: 1rem;
-}
+
 
 .about-title-1 {
     margin: 1rem 0;
@@ -231,11 +224,111 @@
 }
 
 .about-text-info {
-    width: 75%;
+    width: 80%;
+    text-align: center;
     margin: 0 auto;
     color: rgb(97, 97, 97);
-    margin-bottom: 0.5rem;
 }
+
+.about{
+    display: grid;
+    grid-template-columns: 15rem 13rem 15rem;
+    grid-template-rows: 5rem 15rem 8rem 7rem;
+    gap: 1rem 1rem;
+}
+.grid-box-1{
+    grid-column: 1 / span 2;
+}
+
+.grid-box-3{
+    grid-column: 1 / span 2;
+    border: 2px solid #8bc53f;
+    border-radius: 2rem;
+    grid-row: 2 / span 1 ;
+    box-shadow: 0px 0px 5px 1px #8bc53f;
+}
+
+.grid-box-2{
+    grid-row: 1 /  span  3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #bc2a8d;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 5px 1px #bc2a8d;
+}
+
+.grid-box-5{
+    border: 2px solid #0077b5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-row: span 2;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 5px 1px #0077b5;
+}
+
+
+.my-insta-logo{
+    font-size: 8rem;
+    width: 100%;
+    color: #bc2a8d;
+    text-align: center;
+    margin: 2rem 0;
+}
+.my-linkdin-logo{
+    font-size: 5rem;
+    width: 100%;
+    color: #0077b5;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.visit-insta{
+    padding: 1rem 2rem;
+    background-color: #bc2a8d;
+    color: white;
+    display: block;
+    width: fit-content;
+    margin: 0 auto 2rem auto;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.visit-insta:hover{
+    transform: scale(1.05);
+}
+
+.visit-linkdin{
+    padding: 0.8rem 1.6rem;
+    background-color: #0077b5;
+    color: white;
+    display: block;
+    width: fit-content;
+    margin: 0 auto 0.7rem auto;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+.visit-linkdin:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -247,7 +340,7 @@
 
 
 .should{
-    margin: 3rem 0;
+    margin: 9rem 0;
 }
 .should-mid{
     width: 30%;

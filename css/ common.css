@@ -40,6 +40,10 @@
     font-size: 2rem;
 }
 
+.title-c{
+    display: block;
+    text-align: center;
+}
 .title{
     display: block;
     width: 100%;
@@ -51,4 +55,13 @@
 
 .center-v{
     align-items: center;
+}
+
+
+
+.mt-1{
+    margin-top: 1rem;
+}
+.my-1{
+    margin: 1rem 0;
 }
