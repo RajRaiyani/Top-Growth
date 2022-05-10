@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/ common.css">
+    <link rel="stylesheet" href="css/media-queri.css">
 </head>
 
 <body>
@@ -20,11 +21,26 @@
             <h3 class="brand_name"><span class="blue">Top</span><span class="green"> Growth</span></h3>
         </a>
 
+        
         <div class="links">
             <a href="#home" class="link">Home</a>
             <a href="#our-services" class="link">Our Services</a>
             <a href="#location-3" class="link">About</a>
             <a href="#location-4" class="link">Contect</a>
+        </div>
+        <div class="burger-btn" onclick="nav_toggle_fun()">
+            <span class="burger-bar"></span>
+            <span class="burger-bar"></span>
+            <span class="burger-bar"></span>
+        </div>
+    </div>
+
+    <div class="navbar-mobile">
+        <div class="links-2">
+            <a href="#home" class="link" onclick="go_back()">Home</a>
+            <a href="#our-services" class="link" onclick="go_back()">Our Services</a>
+            <a href="#location-3" class="link" onclick="go_back()">About</a>
+            <a href="#location-4" class="link" onclick="go_back()">Contect</a>
         </div>
     </div>
 
@@ -42,6 +58,7 @@
             </a>
         </div>
     </div>
+
     <div id="our-services"></div>
     <h1 class="title-11"><span class="blue">our</span><span class="green"> services</span></h1>
 
@@ -127,7 +144,7 @@
 
         <h1 class="title-m-1 blue"><span class="green">Here's</span> why you should work with us</h1>
 
-        <div class="flex-box-a center-v">
+        <div class="sw-flex-box center-v ">
 
             <img src="images/sw.png" alt="" class="img-112">
 
