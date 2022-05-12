@@ -10,6 +10,7 @@
 :root {
     --green: #8bc53f;
     --blue: #03487c;
+    font-size: 10px;
 }
 
 .blue {

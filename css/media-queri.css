@@ -1,5 +1,7 @@
 @media screen and (min-width : 750px){
-    
+    :root{
+        font-size: 16px;
+    }
     .burger-btn{
         display: none;
     }
@@ -12,6 +14,7 @@
         transform: translate(0,-30%);
         left: 5vw;
         text-align: left;
+        width: 50vw;
     }
     .banner-logo{
         right: 0;

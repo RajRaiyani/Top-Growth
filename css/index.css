@@ -1,5 +1,15 @@
 
+/* 
+this is the website for top growth and 
+we have used some of the color codes here 
 
+blue color  :   #03487c
+green color    :   #8bc53f 
+
+
+we have included fonts from google fonts and
+ it is imported in common.css file
+*/
 
 .navbar {
     align-items: center;
@@ -132,7 +142,8 @@
 
 .banner-text-box {
     position: relative;
-    width: fit-content;
+    width: 80vw;
+    max-width: 35rem;
     top: 30vh;
     margin: 0 auto;
     text-align: center;
