@@ -296,10 +296,9 @@ we have included fonts from google fonts and
     width: fit-content;
     margin: 9rem auto;
     display: grid;
-    grid-template-columns: 12rem 10rem 12rem;
-    grid-template-rows: 5rem 15rem 8rem 7rem;
+    grid-template-columns: 12rem 11rem 12rem;
+    grid-template-rows: 6rem 16rem 9rem 8rem;
     gap: 1rem 1rem;
-    
 }
 
 .about-title-1 {
