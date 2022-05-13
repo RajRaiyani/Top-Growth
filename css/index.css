@@ -144,7 +144,7 @@ we have included fonts from google fonts and
     position: relative;
     width: 80vw;
     max-width: 35rem;
-    top: 30vh;
+    top: 25vh;
     margin: 0 auto;
     text-align: center;
 }
@@ -152,7 +152,7 @@ we have included fonts from google fonts and
 .banner-logo {
     position: relative;
     display: block;
-    top: 30vh;
+    top: 20vh;
     transform: translate(0,-10%);
     margin: 0 auto;
     padding: -2.7rem;
@@ -212,7 +212,7 @@ we have included fonts from google fonts and
 }
 
 .s-box {
-    height: 100%;
+
     margin: 3rem auto;
     width: 80%;
     background-color: white;
@@ -238,6 +238,7 @@ we have included fonts from google fonts and
 }
 
 .s-text-info {
+
     text-align: center;
     padding: 2rem;
     display: block;
@@ -436,9 +437,8 @@ we have included fonts from google fonts and
 }
 .mini-box-sw{
     width: 80vw;
-
     display: flex;
-    margin: 3rem auto;
+    margin: 2rem auto;
 }
 .img-112{
     width: 80vw;
@@ -466,10 +466,10 @@ we have included fonts from google fonts and
 /* contect section  */
 
 
-.contect {
+.contact {
     display: flex;
     justify-content: space-between;
-    height: 20vh;
+    height: 25vh;
     align-items: center;
     border: 1px solid #99b2c4;
 }
@@ -482,7 +482,7 @@ we have included fonts from google fonts and
     display: flex;
     justify-content: space-around;
     font-size: 1.5rem;
-    width: 55%;
+    width: fit-content;
     margin: 1.3rem 0 0 1rem;
 }
 
@@ -490,14 +490,25 @@ we have included fonts from google fonts and
     opacity: 0.6;
     color: var(--blue);
     transition: 0.3s;
+    text-decoration: none;
+    margin: 0 1rem;
 }
 
 .tg-ids-icon:hover {
     opacity: 1;
 }
 
+.contact-c-box{
+    margin: 0 2rem 0 0;
+}
 .p-email-box {
-    margin-right: 4rem;
+    text-align: right;
+    margin: 2rem 2rem 0 0;
+}
+
+
+
+.contact-c-box{
     text-align: right;
 }
 
@@ -512,8 +523,8 @@ we have included fonts from google fonts and
     color: rgb(56, 56, 56);
 }
 
-.contect-t {
-    text-align: center;
+.contact-t {
+    text-align: right;
 }
 
 
@@ -549,16 +560,3 @@ we have included fonts from google fonts and
     transform: scale(1.05);
 }
 
-
-
-
-
-
-
-
-
-
-/* only for experiment */
-.exp {
-    height: 700px;
-}
