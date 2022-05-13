@@ -108,11 +108,11 @@ we have included fonts from google fonts and
     top: 0;
     right: 0;
     height: 100vh;
-    width: 25rem;
+    width: 20rem;
     background-color: white;
     z-index: 2;
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
     box-shadow: 1px 1px 10px rgb(182, 182, 182);
     background-color: #f9fcff;
 }
@@ -121,7 +121,6 @@ we have included fonts from google fonts and
     flex-direction: column;
     justify-content: space-between;
     height: 30vh;
-    width: 25rem;
     align-items: center;
 
 }
