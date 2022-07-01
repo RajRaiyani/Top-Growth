@@ -2,27 +2,24 @@
 
 // nav active on scroll
 
-window.addEventListener("scroll",() => {
-
-    let a = document.getElementsByClassName("navbar")[0];
-    a.classList.toggle("navbar-scroll-active",window.scrollY > 5);
-
+window.addEventListener("scroll", () => {
+  let a = document.getElementsByClassName("navbar")[0];
+  a.classList.toggle("navbar-scroll-active", window.scrollY > 5);
 });
 
-function nav_toggle_fun(){
-    var a = document.getElementsByClassName("navbar-mobile")[0]; 
-    
-    if(a.style.display == "flex"){
-        a.style.display = "none";
-    }else{
-        a.style.display = "flex";
-    }
+function nav_toggle_fun() {
+  var a = document.getElementsByClassName("navbar-mobile")[0];
+
+  if (a.style.display == "flex") {
+    a.style.display = "none";
+  } else {
+    a.style.display = "flex";
+  }
 }
 
-
-function go_back(){
-    var a = document.getElementsByClassName("navbar-mobile")[0];
-    a.style.display="none";
+function go_back() {
+  var a = document.getElementsByClassName("navbar-mobile")[0];
+  a.style.display = "none";
 }
 
 // home btn link

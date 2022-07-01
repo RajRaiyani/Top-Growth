@@ -109,7 +109,6 @@ we have included fonts from google fonts and
     right: 0;
     height: 100vh;
     width: 20rem;
-    background-color: white;
     z-index: 2;
     border-top-left-radius: 30%;
     border-bottom-left-radius: 30%;
@@ -548,14 +547,13 @@ we have included fonts from google fonts and
 }
 
 .d-name {
-    color: rgb(180, 157, 25);
+    color: rgb(21, 0, 255);
     text-decoration: none;
     display: inline-block;
-    display: none;
 }
 
 .d-name:hover {
-    color: #03487c;
+    color: #ff0000;
     transform: scale(1.05);
 }
 
