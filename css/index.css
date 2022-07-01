@@ -549,7 +549,6 @@ we have included fonts from google fonts and
 .d-name {
     color: rgb(21, 0, 255);
     text-decoration: none;
-    display: inline-block;
 }
 
 .d-name:hover {
