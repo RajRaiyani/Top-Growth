@@ -1,14 +1,15 @@
 
+var a = document.getElementsByClassName("navbar")[0];
 
 // nav active on scroll
 
 window.addEventListener("scroll", () => {
-  let a = document.getElementsByClassName("navbar")[0];
   a.classList.toggle("navbar-scroll-active", window.scrollY > 5);
 });
 
 function nav_toggle_fun() {
   var a = document.getElementsByClassName("navbar-mobile")[0];
+  console.log(a.style.display);
 
   if (a.style.display == "flex") {
     a.style.display = "none";
@@ -18,8 +19,8 @@ function nav_toggle_fun() {
 }
 
 function go_back() {
-  var a = document.getElementsByClassName("navbar-mobile")[0];
-  a.style.display = "none";
+  let m = document.getElementsByClassName("navbar-mobile")[0];
+  m.style.display = "none";
 }
 
 // home btn link
